@@ -1,0 +1,428 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-06T21:55:41+00:00",
+  "title": "Design System: Recreio",
+  "extensions": {
+    "colorMeta": {
+      "room": {
+        "role": "neutral",
+        "displayName": "Lamp-Off Room",
+        "canonical": "#0f0b08",
+        "tonalRamp": [
+          "#070504",
+          "#0f0b08",
+          "#1b140e",
+          "#2a2018",
+          "#3d3126",
+          "#5a4c3f",
+          "#8a7c6e",
+          "#cfc5ba"
+        ]
+      },
+      "room-glow": {
+        "role": "neutral",
+        "displayName": "Room Glow",
+        "canonical": "#2c1d11",
+        "tonalRamp": [
+          "#120b06",
+          "#1f140b",
+          "#2c1d11",
+          "#45301f",
+          "#634832",
+          "#86674d",
+          "#b49a80",
+          "#e3d4c3"
+        ]
+      },
+      "wood": {
+        "role": "neutral",
+        "displayName": "Varnished Wood",
+        "canonical": "#3b2212",
+        "tonalRamp": [
+          "#1f1108",
+          "#2e1a0d",
+          "#3b2212",
+          "#5d3519",
+          "#7e4b26",
+          "#a2683d",
+          "#c99a72",
+          "#ecd6c0"
+        ]
+      },
+      "wood-hi": {
+        "role": "neutral",
+        "displayName": "Varnish Highlight",
+        "canonical": "#5d3519"
+      },
+      "wood-edge": {
+        "role": "neutral",
+        "displayName": "Frame Edge",
+        "canonical": "#1f1108"
+      },
+      "felt": {
+        "role": "neutral",
+        "displayName": "Billiard Felt",
+        "canonical": "#1d6a3b",
+        "tonalRamp": [
+          "#0b2a17",
+          "#12391f",
+          "#134d2b",
+          "#1d6a3b",
+          "#2f8a52",
+          "#57a874",
+          "#94cba3",
+          "#d4ecd9"
+        ]
+      },
+      "felt-deep": {
+        "role": "neutral",
+        "displayName": "Deep Felt",
+        "canonical": "#134d2b"
+      },
+      "card-band": {
+        "role": "neutral",
+        "displayName": "Printed Band",
+        "canonical": "#12391f"
+      },
+      "chalk": {
+        "role": "neutral",
+        "displayName": "Chalk",
+        "canonical": "#f1efe6",
+        "tonalRamp": [
+          "#2b2a26",
+          "#4d4b44",
+          "#75726a",
+          "#9d9a90",
+          "#c2bfb5",
+          "#dedbd1",
+          "#f1efe6",
+          "#faf9f4"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Ink",
+        "canonical": "#f4efe6"
+      },
+      "ink-dim": {
+        "role": "neutral",
+        "displayName": "Dim Ink",
+        "canonical": "#d4c6ae",
+        "tonalRamp": [
+          "#3a3326",
+          "#5a503f",
+          "#7d715b",
+          "#a09379",
+          "#bfb196",
+          "#d4c6ae",
+          "#e6dccb",
+          "#f5f0e6"
+        ]
+      },
+      "brass": {
+        "role": "primary",
+        "displayName": "Lamp Brass",
+        "canonical": "#d6a43a",
+        "tonalRamp": [
+          "#3d2c0a",
+          "#5e4513",
+          "#7d5c1a",
+          "#9a7322",
+          "#b98a29",
+          "#d6a43a",
+          "#f2c75c",
+          "#fbe8b6"
+        ]
+      },
+      "brass-hi": {
+        "role": "primary",
+        "displayName": "Lit Brass",
+        "canonical": "#f2c75c"
+      },
+      "brass-deep": {
+        "role": "primary",
+        "displayName": "Brass Rim",
+        "canonical": "#9a7322"
+      },
+      "team-blue": {
+        "role": "secondary",
+        "displayName": "Acrylic Blue",
+        "canonical": "#2453d4",
+        "tonalRamp": [
+          "#0c1c4a",
+          "#132d75",
+          "#183a9c",
+          "#2453d4",
+          "#4a77ec",
+          "#7d9ef2",
+          "#b3c6f7",
+          "#e3eafc"
+        ]
+      },
+      "team-red": {
+        "role": "secondary",
+        "displayName": "Acrylic Red",
+        "canonical": "#d63a3a",
+        "tonalRamp": [
+          "#4a1010",
+          "#751a1a",
+          "#9c2424",
+          "#d63a3a",
+          "#e85252",
+          "#f08585",
+          "#f6b6b6",
+          "#fce5e5"
+        ]
+      },
+      "card": {
+        "role": "neutral",
+        "displayName": "Card Stock",
+        "canonical": "#f7f5ee",
+        "tonalRamp": [
+          "#3b3a35",
+          "#5e5c54",
+          "#a99f86",
+          "#c9c4b5",
+          "#e0dccf",
+          "#efece3",
+          "#f7f5ee",
+          "#fdfcf9"
+        ]
+      },
+      "card-ink": {
+        "role": "neutral",
+        "displayName": "Card Ink",
+        "canonical": "#1d140c"
+      },
+      "well": {
+        "role": "neutral",
+        "displayName": "Well",
+        "canonical": "#0c0b0a"
+      },
+      "error-chalk": {
+        "role": "neutral",
+        "displayName": "Error Chalk",
+        "canonical": "#ffb4a8"
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Game title on the menu plaque."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Plaque titles on secondary screens."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Group and help section headings."
+      },
+      "numeral": {
+        "displayName": "Numeral",
+        "purpose": "Placar percentages, room code, code input."
+      },
+      "card-name": {
+        "displayName": "Card Name",
+        "purpose": "Name on the card's printed band."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Ledes, help, status line."
+      },
+      "button": {
+        "displayName": "Button",
+        "purpose": "Button labels."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Placar labels and slot labels, uppercase."
+      }
+    },
+    "shadows": [
+      {
+        "name": "lamp-drop",
+        "value": "0 12px 28px rgba(0,0,0,0.5), 0 2px 5px rgba(0,0,0,0.45)",
+        "purpose": "Plaques, options sheet, card tiles."
+      },
+      {
+        "name": "bar-drop",
+        "value": "0 8px 18px rgba(0,0,0,0.45)",
+        "purpose": "Placar bar and tip strip."
+      },
+      {
+        "name": "wood-highlight",
+        "value": "inset 0 1px 0 rgba(255,214,170,0.14)",
+        "purpose": "Varnish catching the lamp on wood."
+      },
+      {
+        "name": "brass-highlight",
+        "value": "inset 0 1px 0 rgba(255,246,214,0.55)",
+        "purpose": "Top edge of brass buttons."
+      },
+      {
+        "name": "inset-well",
+        "value": "inset 0 2px 6px rgba(0,0,0,0.8)",
+        "purpose": "Placar cells and the code input."
+      },
+      {
+        "name": "chosen-lift",
+        "value": "0 0 0 3px #d6a43a, 0 22px 30px rgba(0,0,0,0.55)",
+        "purpose": "Selected card (with translateY(-12px))."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-felt",
+        "value": "cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "Card lift, plaque rise: deceleration like objects on felt."
+      },
+      {
+        "name": "card-lift",
+        "value": "0.35s",
+        "purpose": "Card hover and select transitions."
+      },
+      {
+        "name": "press",
+        "value": "0.15s ease",
+        "purpose": "Button hover brightness and press."
+      },
+      {
+        "name": "rise",
+        "value": "0.55s ease-felt, translateY(24px) to 0",
+        "purpose": "Final-whistle plaque entrance."
+      },
+      {
+        "name": "fade",
+        "value": "0.4s ease-out",
+        "purpose": "Dialog scrim."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "wide",
+        "value": "1000px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "The one brass action per moment: start a match, show the hand, close help.",
+      "html": "<button class=\"ds-btn-primary\">Jogar contra o bot</button>",
+      "css": ".ds-btn-primary{height:50px;border-radius:10px;padding:0 18px;font:700 17px/1 var(--ui);letter-spacing:0.01em;cursor:pointer;transition:filter 0.15s ease,transform 0.15s ease;border:1px solid #9a7322;color:#1d140c;background:linear-gradient(180deg,#f2c75c,#d6a43a 60%,#b98a29);box-shadow:0 8px 18px rgba(0,0,0,0.4),inset 0 1px 0 rgba(255,246,214,0.55)} .ds-btn-primary:hover{filter:brightness(1.08)} .ds-btn-primary:active{transform:translateY(1px)} .ds-btn-primary:focus-visible{outline:2px solid #f2c75c;outline-offset:3px}"
+    },
+    {
+      "name": "Secondary Button",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "Dark wood block for the second path (create or join a room).",
+      "html": "<button class=\"ds-btn-secondary\">Criar sala</button>",
+      "css": ".ds-btn-secondary{height:50px;border-radius:10px;padding:0 18px;font:700 17px/1 var(--ui);letter-spacing:0.01em;cursor:pointer;transition:filter 0.15s ease,transform 0.15s ease;border:1px solid rgba(241,239,230,0.22);color:#f1efe6;background:linear-gradient(180deg,#2f1b0e,#22130a);box-shadow:0 6px 14px rgba(0,0,0,0.35)} .ds-btn-secondary:hover{filter:brightness(1.08)} .ds-btn-secondary:active{transform:translateY(1px)} .ds-btn-secondary:focus-visible{outline:2px solid #f2c75c;outline-offset:3px}"
+    },
+    {
+      "name": "Segmented Felt Options",
+      "kind": "chip",
+      "refersTo": "segmented-option",
+      "description": "Bot level and odd/even: felt chips, the chosen one ringed in brass.",
+      "html": "<div class=\"ds-seg\" role=\"radiogroup\"><button role=\"radio\" aria-checked=\"false\">Fácil</button><button role=\"radio\" aria-checked=\"true\">Médio</button><button role=\"radio\" aria-checked=\"false\">Difícil</button></div>",
+      "css": ".ds-seg{display:grid;grid-auto-flow:column;grid-auto-columns:1fr;gap:6px;width:320px} .ds-seg button{height:44px;border-radius:9px;border:1px solid rgba(0,0,0,0.45);background:linear-gradient(180deg,#1d6a3b,#134d2b);color:#f1efe6;font:600 16px/1 'Barlow',system-ui,sans-serif;box-shadow:inset 0 1px 0 rgba(255,255,255,0.08);cursor:pointer} .ds-seg button[aria-checked=\"true\"]{color:#f2c75c;box-shadow:inset 0 0 0 2px #d6a43a} .ds-seg button:focus-visible{outline:2px solid #f2c75c;outline-offset:3px}"
+    },
+    {
+      "name": "Room Code Input",
+      "kind": "input",
+      "refersTo": "input-room-code",
+      "description": "Recessed black well with chalk decal digits.",
+      "html": "<input class=\"ds-code\" inputmode=\"numeric\" placeholder=\"Código da sala\" value=\"482913\">",
+      "css": ".ds-code{width:220px;height:50px;border-radius:10px;padding:0 14px;border:1px solid #000;background:#0c0b0a;color:#f1efe6;font:800 24px/1 'Big Shoulders Display','Barlow',sans-serif;letter-spacing:0.22em;box-shadow:inset 0 2px 6px rgba(0,0,0,0.7);caret-color:#f2c75c} .ds-code::placeholder{color:#d4c6ae;font:600 16px/1 'Barlow',sans-serif;letter-spacing:0.02em} .ds-code:focus-visible{outline:2px solid #f2c75c;outline-offset:3px}"
+    },
+    {
+      "name": "Wooden Plaque",
+      "kind": "card",
+      "refersTo": "plaque",
+      "description": "Every menu and dialog panel.",
+      "html": "<section class=\"ds-plaque\"><h1>Par ou ímpar</h1><p>Escolha par ou ímpar e quantos dedos mostrar.</p></section>",
+      "css": ".ds-plaque{width:360px;padding:22px 20px 20px;border-radius:14px;background:linear-gradient(170deg,#5d3519,#3b2212 55%,#2e1a0d);border:1px solid #1f1108;box-shadow:0 12px 28px rgba(0,0,0,0.5),0 2px 5px rgba(0,0,0,0.45),inset 0 1px 0 rgba(255,214,170,0.14);display:grid;gap:14px;font:500 16px/1.4 'Barlow',system-ui,sans-serif;color:#f4efe6} .ds-plaque h1{margin:0;font:900 52px/0.86 'Big Shoulders Display','Barlow',sans-serif;text-transform:uppercase;color:#f1efe6} .ds-plaque p{margin:0;color:#d4c6ae}"
+    },
+    {
+      "name": "Placar",
+      "kind": "custom",
+      "refersTo": "placar-cell",
+      "description": "Wooden scoreboard bar with three inset wells: Azul / Empate / Vermelho.",
+      "html": "<div class=\"ds-placar\"><div class=\"ds-cell\"><span class=\"ds-lbl ds-b\">Azul</span><span class=\"ds-num\">48<small>%</small></span></div><div class=\"ds-cell\"><span class=\"ds-lbl\">Empate</span><span class=\"ds-num\">14<small>%</small></span></div><div class=\"ds-cell\"><span class=\"ds-lbl ds-r\">Vermelho</span><span class=\"ds-num\">38<small>%</small></span></div></div>",
+      "css": ".ds-placar{width:360px;padding:6px;border-radius:12px;display:grid;grid-template-columns:repeat(3,1fr);gap:6px;background:linear-gradient(180deg,#5d3519,#3b2212);border:1px solid #1f1108;box-shadow:0 8px 18px rgba(0,0,0,0.45)} .ds-cell{border-radius:7px;background:#0c0b0a;box-shadow:inset 0 2px 6px rgba(0,0,0,0.8);padding:6px 8px 5px;display:grid;justify-items:center;gap:1px} .ds-lbl{display:flex;align-items:center;gap:6px;font:600 12px/1 'Barlow',sans-serif;letter-spacing:0.06em;text-transform:uppercase;color:#d4c6ae} .ds-lbl::before{content:'';width:7px;height:7px;border-radius:50%;background:#8e8577} .ds-b::before{background:#2453d4} .ds-r::before{background:#d63a3a} .ds-num{font:900 30px/1 'Big Shoulders Display',sans-serif;color:#f1efe6;font-variant-numeric:tabular-nums} .ds-num small{font-size:0.55em;color:#d4c6ae}"
+    },
+    {
+      "name": "Card Tile",
+      "kind": "custom",
+      "refersTo": "card-tile",
+      "description": "Thick card stock: felt patch with the move in chalk, name on a printed band. Chosen lifts with a brass ring.",
+      "html": "<button class=\"ds-card\" aria-pressed=\"false\"><svg class=\"ds-felt\" viewBox=\"0 0 5 5\"><g stroke=\"rgba(241,239,230,0.38)\" stroke-width=\"0.045\"><path d=\"M1 0V5M2 0V5M3 0V5M4 0V5M0 1H5M0 2H5M0 3H5M0 4H5\"/></g><rect x=\"2\" y=\"0\" width=\"1\" height=\"1\" fill=\"rgba(241,239,230,0.16)\" stroke=\"#f1efe6\" stroke-width=\"0.1\"/><circle cx=\"2.5\" cy=\"2.5\" r=\"0.36\" fill=\"#2453d4\"/><circle cx=\"2.5\" cy=\"2.5\" r=\"0.22\" fill=\"none\" stroke=\"#f1efe6\" stroke-width=\"0.06\"/></svg><span class=\"ds-band\">Fila</span></button>",
+      "css": ".ds-card{width:100px;aspect-ratio:5/7;display:flex;flex-direction:column;padding:7px 7px 0;border-radius:10px;border:0;border-bottom:5px solid #a99f86;background:#f7f5ee;color:#1d140c;box-shadow:0 12px 28px rgba(0,0,0,0.5),0 2px 5px rgba(0,0,0,0.45),inset 0 1px 0 rgba(255,255,255,0.6);cursor:pointer;transition:transform 0.35s cubic-bezier(0.16,1,0.3,1),box-shadow 0.35s cubic-bezier(0.16,1,0.3,1)} .ds-card:hover{transform:translateY(-3px)} .ds-card[aria-pressed=\"true\"],.ds-card:active{transform:translateY(-12px);box-shadow:0 0 0 3px #d6a43a,0 22px 30px rgba(0,0,0,0.55)} .ds-card:focus-visible{outline:2px solid #f2c75c;outline-offset:3px} .ds-felt{display:block;width:100%;aspect-ratio:1;border-radius:6px;background:radial-gradient(circle at 50% 40%,#237645,#134d2b)} .ds-band{flex:1;display:grid;place-items:center;margin:7px -7px 0;border-radius:0 0 10px 10px;background:#12391f;color:#f1efe6;font:800 15px/1 'Big Shoulders Display',sans-serif;letter-spacing:0.05em;text-transform:uppercase}"
+    },
+    {
+      "name": "Icon Button",
+      "kind": "nav",
+      "refersTo": "icon-button",
+      "description": "Match options trigger in the top HUD; opens a wooden sheet.",
+      "html": "<button class=\"ds-icon\" aria-label=\"Opções da partida\"><svg viewBox=\"0 0 24 24\" width=\"22\" height=\"22\" aria-hidden=\"true\"><path d=\"M4 7h16M4 12h16M4 17h16\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\"/></svg></button>",
+      "css": ".ds-icon{width:44px;height:44px;border-radius:10px;display:grid;place-items:center;border:1px solid rgba(241,239,230,0.18);background:rgba(20,12,7,0.7);color:#f1efe6;cursor:pointer} .ds-icon:hover{background:rgba(40,24,14,0.8)} .ds-icon:focus-visible{outline:2px solid #f2c75c;outline-offset:3px}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Lamp-Lit Button Table",
+    "overview": "Every surface is a physical object on or around a futebol de botão table: painted felt with chalk lines, a varnished wooden frame, glossy acrylic buttons and a brass-banded goalkeeper block, all under one warm overhead lamp in a dark room. The 3D table (React Three Fiber) is the hero and fills the stage; DOM UI sits around it as more objects from the same room. Menus and dialogs are wooden plaques, the scoreboard is a wooden bar with dark inset wells, cards are thick card-stock tiles whose face is a miniature felt patch.\n\nDensity is low and tactile: a few large controls at a time, one status line, one clear next action. Lettering comes in two voices: condensed decal display type for names, numbers and titles, and a plain sturdy sans for everything you read or press. Motion behaves like objects on felt: things decelerate (cubic-bezier(0.16, 1, 0.3, 1)), lift when chosen, slide with friction, and never bounce in place.\n\nThe world refuses the flat two-tone chess grid with a side panel. Depth comes from material and light (grain, fibers, inset wells, soft lamp shadow), never from flat cards floating on a blank background.",
+    "keyCharacteristics": [
+      "Materials, not surfaces: wood grain, felt fibers, chalk, card stock, brass, acrylic.",
+      "Brass is the single action and selection color.",
+      "Blue and red belong to the two sides only.",
+      "One warm lamp: dark room, soft drop shadows, top-edge highlights on raised objects.",
+      "Decal display lettering in uppercase; Barlow for reading and pressing."
+    ],
+    "rules": [
+      {
+        "name": "The One Brass Rule",
+        "body": "If it can be pressed or is currently chosen, it is brass; nothing else is. In the DOM, the one non-interactive brass element is the draw-countdown note (brass-hi), because it is the clock on the next action; brass never decorates.",
+        "section": "colors"
+      },
+      {
+        "name": "The Two Sides Rule",
+        "body": "Blue and red identify a side and are never used for status, warning, or emphasis.",
+        "section": "colors"
+      },
+      {
+        "name": "The Textured Material Rule",
+        "body": "Wood never appears without grain; felt never appears without fibers. A flat wood or felt fill reads as a form, not the table.",
+        "section": "colors"
+      },
+      {
+        "name": "The Decal Rule",
+        "body": "Big Shoulders Display is for names, numbers and titles only, always uppercase except numerals. Anything read as a sentence or pressed as an action is Barlow.",
+        "section": "typography"
+      },
+      {
+        "name": "The One Lamp Rule",
+        "body": "All shadows fall straight down from above, soft and dark. No colored glows, no hard offset shadows, no light coming from the side.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "**Do** build every new panel as a wooden plaque (grain, 170deg wood gradient, wood-edge rim, lamp drop).",
+      "**Do** mark the next action and the current choice in brass, and only in brass.",
+      "**Do** use Big Shoulders Display uppercase for titles, names and numbers, and Barlow for sentences and button labels.",
+      "**Do** keep texture on materials: grain on wood, fibers on felt, an inset well for anything recessed.",
+      "**Do** decelerate motion with cubic-bezier(0.16, 1, 0.3, 1) and honor prefers-reduced-motion by removing it.",
+      "**Do** keep chalk marks on the felt outside the playable squares unless they are the grid itself; goals are a goal line, a spot and a net in the margin."
+    ],
+    "donts": [
+      "**Don't** use blue or red for anything but the two sides.",
+      "**Don't** add a second accent color or use brass as decoration.",
+      "**Don't** use flat, untextured wood or felt fills.",
+      "**Don't** use hard offset shadows, colored glows or side lighting.",
+      "**Don't** draw chalk shapes (area boxes, arcs) that cross playable squares.",
+      "**Don't** make anything pop or bounce in place."
+    ]
+  }
+}

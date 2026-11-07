@@ -1,0 +1,11 @@
+{
+  // The game as a static site on Cloudflare (Workers static assets). Deploy: npm run deploy
+  "$schema": "https://unpkg.com/wrangler@4/config-schema.json",
+  "name": "recreio",
+  "compatibility_date": "2026-11-03",
+  "routes": [{ "pattern": "recreio.sugiyamalabs.com", "custom_domain": true }],
+  "assets": {
+    "directory": "./dist",
+    "not_found_handling": "single-page-application"
+  }
+}
